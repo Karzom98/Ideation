@@ -1,0 +1,90 @@
+.title-div{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100%;
+    
+
+}
+
+.title{
+    font-size: 20px;
+    margin-left: 2%;
+    color: rgba(191, 194, 6, 0.473);
+   
+   
+   
+    
+}
+
+.socials{
+ 
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.socialsimg{
+    height:50px;
+    margin-left: 2px;
+}
+
+    
+
+.Blogs{
+    
+    display: flex;
+    flex-wrap: wrap; 
+    margin-left: 190px;
+    margin-right: 80px;
+
+}
+.Blogs > div{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 15px;
+    height: 95%;
+    width: 90%;  
+   
+    
+}
+
+img{
+    display: flex;
+   
+    align-items: center;
+    margin-left: 40px;
+    height:90%;
+    width:50%;
+    object-fit: contain;
+    margin-bottom: 20px;
+    
+    
+}
+
+
+
+.subheadings{
+    display: flex;
+ 
+    align-items: center;
+    margin-left: 200px;
+}
+p{
+    display: flex;
+    
+    margin-left: 200px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+   
+    font-size: 14px;
+}
+.footer{
+    font: 12px;
+    font-style: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 600px;
+    margin-top: 40px;
+}
